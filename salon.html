@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Salon Holly's</title>
+    <meta name="description" content="癒しの空間と最高のヘアスタイルをお届けするヘアサロン">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="pc-header" class="page-header">
+        <div class="icon">
+            <a href="index.html"><img src="logo.webp" alt="アイコン画像"></a>
+            <p>Hair Salon Holly's</p>
+        </div>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="menu.html">メニュー</a></li>
+                <li><a href="style.html">スタイル</a></li>
+                <li><a href="stylist.html">スタイリスト</a></li>
+            </ul>
+            <div class="align-end">
+                <a class="btn" href="reserve.html">ご予約はこちら</a>
+            </div>
+        </nav>
+    </header>
+    <header id="sp-header" class="page-header">
+        <div class="icon">
+            <a href="index.html"><img src="logo.webp" alt="アイコン画像"></a>
+            <p>Hair Salon Holly's</p>
+        </div>
+        <nav>
+            <button id="menu-open" class="btn-menu">
+                <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <title>メニューを開く</title>
+                    <path clip-rule="evenodd"
+                        d="m4.25 8c0-.41421.33579-.75.75-.75h14c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.33579-.75-.75zm0 4c0-.4142.33579-.75.75-.75h14c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.3358-.75-.75zm.75 3.25c-.41421 0-.75.3358-.75.75s.33579.75.75.75h14c.4142 0 .75-.3358.75-.75s-.3358-.75-.75-.75z"
+                        fill-rule="evenodd" />
+                </svg>
+            </button>
+            <div id="menu-panel">
+                <button id="menu-close" class="btn-menu">
+                    <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <title>メニューを閉じる</title>
+                        <path clip-rule="evenodd"
+                            d="m7.53033 6.46967c-.29289-.29289-.76777-.29289-1.06066 0s-.29289.76777 0 1.06066l4.46963 4.46967-4.46963 4.4697c-.29289.2929-.29289.7677 0 1.0606s.76777.2929 1.06066 0l4.46967-4.4696 4.4697 4.4696c.2929.2929.7677.2929 1.0606 0s.2929-.7677 0-1.0606l-4.4696-4.4697 4.4696-4.46967c.2929-.29289.2929-.76777 0-1.06066s-.7677-.29289-1.0606 0l-4.4697 4.46963z"
+                            fill-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="main-nav">
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="menu.html">メニュー</a></li>
+                    <li><a href="style.html">スタイル</a></li>
+                    <li><a href="stylist.html">スタイリスト</a></li>
+                </ul>
+                <div class="align-end">
+                    <a class="btn" href="reserve.html">ご予約はこちら</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="bg-img">
+        <div class="wrapper padding-top">
+            <div class="text">
+                <p class="heading-large">Salon</p>
+                <p class="content">店舗の詳しい情報です</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="salon wrapper">
+        <div location-img>
+            <img src="salon-2.webp" alt="">
+        </div>
+        <div class="location-info">
+            <h3 class="heading-medium">大阪店</h3>
+            <table class="info">
+                <tr>
+                    <th>住所</th>
+                    <td>大阪府大阪市北区〇〇ー〇</td>
+                </tr>
+                <tr>
+                    <th>電話</th>
+                    <td>0120-956-xxxx</td>
+                </tr>
+                <tr>
+                    <th>営業時間</th>
+                    <td>10:00～19:00</td>
+                </tr>
+                <tr>
+                    <th>定休日</th>
+                    <td>火・水曜日</td>
+                </tr>
+            </table>
+            <p>白に木目を取り入れた<br>落ち着きのある空間です。<br>ごゆっくりおくつろぎください。</p>
+        </div>
+        <div class="location-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.106653673928!2d135.49337567619867!3d34.70248978311615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e68d95e3a70b%3A0x1baec822e859c84a!2z5aSn6Ziq6aeF!5e0!3m2!1sja!2sjp!4v1721718809750!5m2!1sja!2sjp"
+                width="320" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="salon wrapper">
+        <div location-img>
+            <img src="salon-1.webp" alt="">
+        </div>
+        <div class="location-info">
+            <h3 class="heading-medium">東京店</h3>
+            <table class="info">
+                <tr>
+                    <th>住所</th>
+                    <td>東京都千代田区丸の内〇ー〇</td>
+                </tr>
+                <tr>
+                    <th>電話</th>
+                    <td>0120-33-xxxx</td>
+                </tr>
+                <tr>
+                    <th>営業時間</th>
+                    <td>11:00～20:00</td>
+                </tr>
+                <tr>
+                    <th>定休日</th>
+                    <td>月・火曜日</td>
+                </tr>
+            </table>
+            <p>白を基調とした<br>高級感あふれる空間です。<br>上質な空間でぜひ、癒されてください。</p>
+        </div>
+        <div class="location-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.827853707476!2d139.76454987623123!3d35.6812405299727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1721721040224!5m2!1sja!2sjp"
+                width="320" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="copyright">
+            <small>&copy; 2024 Hair Salon Holly's</small>
+        </div>
+    </footer>
+</body>
+
+</html>
